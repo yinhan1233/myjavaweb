@@ -20,6 +20,6 @@ public class TestServlet extends HttpServlet {
         System.out.println("id="+id);
         String name = request.getParameter("name");
         System.out.println("name="+name);
-        pw.println("<html><head></head><body><div style='width:200px;height:300px;background:#00ff00'></div></body></html>");
+        pw.println("<html><head></head><body><div style='width:300px;height:300px;background:#00ff00'></div></body></html>");
     }
 }
